@@ -1,0 +1,35 @@
+body{
+    position: relative;
+    position: center;
+    width: 2000px;
+    height: 2000px;
+    /* margin-top: 200px; */
+    background: linear-gradient(180deg, #f9f8e1 0%, #54af64 100%);
+  }
+h1{
+    color: #f1e9d9;
+    position: absolute;
+    text-align: left;
+width: 871px;
+height: 192px;
+left: 1000px;
+top: 100px;
+font-family: "Futura", serif;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 150px;
+align-items: left;
+}
+
+h1:hover {
+    color: #10490e;
+  }
+  
+
+
+  ::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+
+
