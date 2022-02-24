@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50pt;
+    margin-top: 5px;
+    line-height: 120px;
+    
+}
+h1:hover {
+    line-height: normal;
+    filter: blur(1rem);
+    }
+
+    @media screen and (max-width: 480px) {
+        h1{
+            font-size: 30pt;
+        }
+    }

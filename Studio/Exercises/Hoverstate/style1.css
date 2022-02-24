@@ -1,0 +1,17 @@
+h1{
+    font-family: Arial, sans-serif;
+    font-size: 100pt;
+    margin-top: 5px;
+    line-height: 120px;
+    
+}
+h1:hover {
+    color: rgb(214, 16, 16);
+	-webkit-text-stroke: 5px rgb(212, 9, 104);
+    }
+
+    @media screen and (max-width: 1024px){
+        body{
+            background-color: rgb(40, 173, 196);
+        }
+    }

@@ -1,0 +1,25 @@
+h1{
+    font-family: "Futura", sans-serif;
+    font-size: 50pt;
+    margin-top: 5px;
+    line-height: 120px;
+    
+}
+#myDIV {
+    width: 3000px;
+    height: 2000px;
+    background-color: red;
+    animation: mymove 10s infinite;
+  }
+  
+  @keyframes mymove {
+    from {background-color: red;}
+    to {background-color: rgb(255, 217, 0);}
+  }
+  @media screen and (max-width: 320px) {
+ body,h1{
+ font-size: 30pt;
+    }
+}
+
+
