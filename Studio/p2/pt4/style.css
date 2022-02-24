@@ -1,0 +1,28 @@
+h1{
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 100pt;
+    margin-top: 5px;
+    line-height: 120px;
+    
+}
+h1:hover {
+    color: white;
+	-webkit-text-stroke: 2px black;
+    }
+
+h2{
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 50pt;
+}
+p{
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 200pt;
+}
+h3:hover{
+    color: white;
+	-webkit-text-stroke: 2px black;
+}
+.menu{
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 50pt;
+}
