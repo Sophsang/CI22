@@ -1,0 +1,30 @@
+h1{
+    font-family: helvetica, sans-serif;
+    font-size: 300px;
+    text-align: center;
+    line-height: 300px;
+    color:rgb(255, 0, 0);
+}
+body{
+    background-color: rgb(0, 238, 255);
+}
+body:hover{
+    background-color: rgb(255, 0, 0);
+}
+h1:hover {
+    color: rgb(0, 238, 255);
+    line-height: normal;
+    filter: blur(1rem);
+    }
+    h1:hover, a:visited, a:link, a:active
+    {
+        /* color: black; */
+        text-decoration: none;
+    }
+
+    @media screen and (max-width: 1024px){
+        h1{
+            font-size: 60px;
+            line-height: 60px;
+        }
+    }

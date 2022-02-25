@@ -12,7 +12,7 @@ h1,h3{
     line-height: 20pt;
 }
 h2{
-    font-family: sans-serif;
+    font-family: "Sovana", serif;
     font-size: 30pt;
     color: rgb(255, 55, 41);
 }
@@ -28,6 +28,7 @@ a, a:visited, a:link, a:active
 } 
 body{
     background-color:rgb(245, 242, 210);
+    margin-left: 30px;
 }
 details{
     font-family: sans-serif;

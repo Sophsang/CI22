@@ -1,0 +1,29 @@
+h1{
+    font-family: helvetica, sans-serif;
+    font-size: 300px;
+    text-align: center;
+    line-height: 300px;
+    color:yellowgreen;
+
+}
+body{
+    background-color: rgb(95, 43, 192);
+}
+body:hover{
+    background-color: yellowgreen;
+}
+h1:hover {
+    color: rgb(95, 43, 192);
+    }
+    h1:hover, a:visited, a:link, a:active
+    {
+        /* color: black; */
+        text-decoration: none;
+    }
+
+    @media screen and (max-width: 1024px){
+        h1{
+            font-size: 100px;
+            line-height: 100px;
+        }
+    }
