@@ -35,24 +35,23 @@ h1:hover, h2:hover, h3:hover, h4:hover {
     color: black;
     
 	-webkit-text-stroke: 2px white;
-    }
-    .triangle-right {
-        width: 0;
-        height: 0;
-        border-top: 25px solid transparent;
-        border-left: 50px solid rgb(255, 255, 255);
-        border-bottom: 25px solid transparent;
-    }
+}
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid rgb(255, 255, 255);
+    border-bottom: 25px solid transparent;
+}
 
-    .triangel-right:hover{
-        color: mediumturquoise;
-        -webkit-text-stroke: 2px white;
+.triangel-right:hover{
+    color: mediumturquoise;
+    -webkit-text-stroke: 2px white;
+}
+@media screen and (max-width: 1024px){
+    h1, h2, h3, h4{
+        font-size: 30px;
+        line-height: 60px;
+        margin-right: 50px;
     }
-    @media screen and (max-width: 1024px){
-        h1, h2, h3, h4{
-            font-size: 30px;
-            line-height: 60px;
-            margin-right: 50px;
-        }
-    }
-      
+}
