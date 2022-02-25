@@ -28,3 +28,13 @@ h1:hover {
             line-height: 60px;
         }
     }
+
+    @media print{
+        h1{
+            font-family: helvetica, sans-serif;
+            font-size: 200px;
+            text-align: center;
+            line-height: 200px;
+            color:rgb(255, 0, 0);
+        }
+    }

@@ -33,3 +33,28 @@ h2{
             line-height: 60px;
         }
     }
+    @media print{
+        h1{
+            font-family: helvetica, sans-serif;
+            font-size: 100px;
+            text-align: center;
+            line-height: 150px;
+            color:rgb(255, 0, 247);
+        }
+        body{
+            background-color: orange;
+        }
+        body:hover{
+            background-color: rgb(255, 0, 247);
+        }
+        h1:hover {
+            color: orange;
+            }
+        h2{
+            font-family: helvetica, sans-serif;
+            font-size: 100px;
+            text-align: center;
+            line-height: 150px;
+            color:rgb(162, 0, 255);
+        }
+    }

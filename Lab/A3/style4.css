@@ -55,4 +55,39 @@ h1:hover, h2:hover, h3:hover, h4:hover {
             margin-right: 50px;
         }
     }
+    @media print{
+        body{
+            background-color: black;
+            margin-left: 100px;
+            margin-bottom: 50px;
+        }
+        h1{
+            font-family: helvetica, sans-serif;
+            font-size: 30px;
+            text-align: left;
+            line-height: 80px;
+            color:rgb(255, 0, 85);
+        }
+        h2{
+            font-family: helvetica, sans-serif;
+            font-size: 30px;
+            text-align: left;
+            line-height: 80px;
+            color: purple;
+        }
+        h3{
+            font-family: helvetica, sans-serif;
+            font-size: 30px;
+            text-align: left;
+            line-height: 80px;
+            color: yellow;
+        }
+        h4{
+            font-family: helvetica, sans-serif;
+            font-size: 30px;
+            text-align: left;
+            line-height: 80px;
+            color: mediumblue;
+        }
+    }
       
