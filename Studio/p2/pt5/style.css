@@ -111,3 +111,24 @@ h3:hover{
     cursor: grab;
     z-index: 10;
   }
+  @media screen and (max-width: 1024px){
+    h1{
+        font-size: 50pt;
+        line-height: 50px;
+    }
+    h2{
+        font-size: 20pt;
+        line-height: 20px;
+    }
+    #mydiv, #mydiv2, #mydiv3, #mydiv4, #mydiv5{
+        font-size: 400pt;
+        line-height: 50px;
+    }
+    h3{
+        font-size: 30pt;
+        line-height: 100px;
+    }
+    body{
+        margin: 50px;
+    }
+}
