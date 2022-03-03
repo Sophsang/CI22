@@ -1,15 +1,15 @@
-h2{
+ h2{
     font-family: Arial, Bold, sans-serif;
     width: 100vw;
     padding-top: 50px;
-    margin-left: 50px;
     line-height: 30pt;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #mydiv {
     position: absolute;
     z-index: 9;
-    text-align: center;
     font-family: Arial, "Bold", sans-serif;
     font-size: 800pt;
     line-height: 120px;
@@ -25,7 +25,6 @@ h2{
   #mydiv2 {
     position: absolute;
     z-index: 9;
-    text-align: center;
     font-family: Arial, "Bold", sans-serif;
     font-size: 800pt;
     line-height: 120px;

@@ -1,8 +1,8 @@
 h1{
     font-family: Arial, "Bold", sans-serif;
-    font-size: 100pt;
+    font-size: 150pt;
     margin-top: 50px;
-    line-height: 120px;
+    line-height: 160px;
     
 }
 h1:hover {
@@ -26,6 +26,7 @@ h3:hover{
 .menu{
     font-family: Arial, "Bold", sans-serif;
     font-size: 80pt;
+    margin-top: 1000px;
 }
 .menu:hover, a:visited, a:link, a:active
 {
@@ -37,15 +38,17 @@ h3:hover{
     z-index: 9;
     text-align: center;
     font-family: Arial, "Bold", sans-serif;
-    font-size: 800pt;
+    font-size: 600pt;
     line-height: 120px;
     color: black;
   }
   
   #mydivheader {
-    padding: 10px;
+    /* padding: 10px; */
     cursor: grab;
     z-index: 10;
+    margin-top: -300px;
+    margin-left: 850px;
   }
 
   #mydiv2 {
@@ -53,7 +56,7 @@ h3:hover{
     z-index: 9;
     text-align: center;
     font-family: Arial, "Bold", sans-serif;
-    font-size: 800pt;
+    font-size: 500pt;
     line-height: 120px;
     color: black;
   }
@@ -62,6 +65,8 @@ h3:hover{
     padding: 10px;
     cursor: grab;
     z-index: 10;
+    margin-top: -400px;
+    margin-left: 700px;
   }
 
   #mydiv3 {
@@ -78,6 +83,8 @@ h3:hover{
     padding: 10px;
     cursor: grab;
     z-index: 10;
+    margin-top: -500px;
+    margin-left: 500px;
   }
 
   #mydiv4 {
@@ -85,7 +92,7 @@ h3:hover{
     z-index: 9;
     text-align: center;
     font-family: Arial, "Bold", sans-serif;
-    font-size: 1000pt;
+    font-size: 500pt;
     line-height: 120px;
     color: black;
   }
@@ -94,6 +101,8 @@ h3:hover{
     padding: 10px;
     cursor: grab;
     z-index: 10;
+    margin-top: -200px;
+    margin-left: 300px;
   }
 
   #mydiv5 {
@@ -110,6 +119,139 @@ h3:hover{
     padding: 10px;
     cursor: grab;
     z-index: 10;
+    margin-top: -1000px;
+    margin-left: 50px;
+  }
+  #mydiv6 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 1000pt;
+    line-height: 120px;
+    color: black;
+  }
+  
+  
+  #mydivheader6 {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
+    margin-top: -900px;
+    margin-left: -70px;
+  }
+  #mydiv7 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 600pt;
+    line-height: 120px;
+    color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke: 5px black;
+  }
+  
+  #mydivheader7 {
+    /* padding: 10px; */
+    cursor: grab;
+    z-index: 10;
+    margin-top: -300px;
+    margin-left: 850px;
+  }
+
+  #mydiv8 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 500pt;
+    line-height: 120px;
+    color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke: 5px black;
+  }
+  
+  #mydivheader8 {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
+    margin-top: -400px;
+    margin-left: 700px;
+  }
+
+  #mydiv9 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 500pt;
+    line-height: 120px;
+    color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke: 5px black;
+  }
+  
+  #mydivheader9 {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
+    margin-top: -500px;
+    margin-left: 500px;
+  }
+
+  #mydiv10 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 500pt;
+    line-height: 120px;
+    color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke: 5px black;
+  }
+  
+  #mydivheader10 {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
+    margin-top: -200px;
+    margin-left: 300px;
+  }
+
+  #mydiv11 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 1000pt;
+    line-height: 120px;
+    color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke: 5px black;
+  }
+  
+  #mydivheader11 {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
+    margin-top: -1000px;
+    margin-left: 50px;
+  }
+  #mydiv12 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 800pt;
+    line-height: 120px;
+    color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke: 5px black;
+  }
+  
+  
+  #mydivheader12 {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
+    margin-top: -700px;
+    margin-left: -100px;
   }
   @media screen and (max-width: 1024px){
     h1{

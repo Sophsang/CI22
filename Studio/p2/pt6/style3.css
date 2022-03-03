@@ -2,14 +2,16 @@ h2{
     font-family: Arial, Bold, sans-serif;
     width: 100vw;
     padding-top: 50px;
-    margin-left: 50px;
+    padding-right: 50px;
     line-height: 30pt;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 100px;
 }
 
 #mydiv {
     position: absolute;
     z-index: 9;
-    text-align: center;
     font-family: Arial, "Bold", sans-serif;
     font-size: 800pt;
     line-height: 120px;
@@ -25,7 +27,6 @@ h2{
   #mydiv2 {
     position: absolute;
     z-index: 9;
-    text-align: center;
     font-family: Arial, "Bold", sans-serif;
     font-size: 800pt;
     line-height: 120px;
@@ -37,6 +38,8 @@ h2{
     padding: 10px;
     cursor: grab;
     z-index: 10;
+    margin-top: 110px;
+    margin-left: 800px;
   }
 
   @media screen and (max-width: 480px){

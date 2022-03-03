@@ -2,13 +2,49 @@ body{
     background-color: black;
 }
 h2{
-    font-family: Arial, Bold, sans-serif;
+    font-family: "Futura", "Medium", sans-serif;
     margin-left: 50px;
     line-height: 30pt;
     width: 100vw;
     padding-top: 100px;
     color: white;
 }
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 3000pt;
+    line-height: 120px;
+    color: white;
+    /* padding-top: 100px; */
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
+    margin-top: 500px;
+  }
+
+  #mydiv2 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 3000pt;
+    line-height: 120px;
+    color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke: 5px white;
+    /* padding-top: 100px; */
+  }
+  
+  #mydivheader2 {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
+    margin-top: 500px;
+  }
 @media screen and (max-width: 480px){
     h2{
         padding-top: 20px;
