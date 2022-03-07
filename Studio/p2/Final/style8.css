@@ -1,3 +1,44 @@
+h1{
+    font-family: Arial, Bold, sans-serif;
+    font-size: 20pt;
+    width: 100vw;
+    padding-top: 50px;
+    padding-right: 50px;
+    line-height: 30pt;
+    text-align: center;
+    text-justify: inter-word;
+    margin-left: 100px;
+    margin-right: 100px; 
+    max-width: 80ch;
+}
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  .column {
+    float: left;
+    width: 500px;
+    padding: 0px;
+    height: 300px; 
+    margin-left: 100px;
+    margin-top: 0px;
+    border: 3px dotted black;
+    height: 500px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+h3{
+    font-family: Arial, Bold, sans-serif;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20pt;
+}
 h2{
     font-family: Arial, Bold, sans-serif;
     width: 100vw;
@@ -54,6 +95,109 @@ h2{
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {opacity: 1.0;}
+
+  #mydiv {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 100pt;
+    line-height: 120px;
+    color: black;
+  }
+  
+  #mydivheader {
+    /* padding: 10px; */
+    cursor: grab;
+    z-index: 10;
+    margin-top: 0px;
+    margin-left: 100px;
+  }
+  #mydiv2 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 100pt;
+    line-height: 120px;
+    color: black;
+  }
+  
+  #mydivheader2 {
+    /* padding: 10px; */
+    cursor: grab;
+    z-index: 10;
+    margin-top: 0px;
+    margin-left: 300px;
+  }
+  #mydiv3 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 100pt;
+    line-height: 120px;
+    color: black;
+  }
+  
+  #mydivheader3 {
+    /* padding: 10px; */
+    cursor: grab;
+    z-index: 10;
+    margin-top: 0px;
+    margin-left: 500px;
+  }
+  #mydiv4 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 100pt;
+    line-height: 120px;
+    color: black;
+  }
+  
+  #mydivheader4 {
+    /* padding: 10px; */
+    cursor: grab;
+    z-index: 10;
+    margin-top: 10px;
+    margin-left: 700px;
+  }
+  #mydiv5 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 100pt;
+    line-height: 120px;
+    color: black;
+  }
+  
+  #mydivheader5 {
+    /* padding: 10px; */
+    cursor: grab;
+    z-index: 10;
+    margin-top: 0px;
+    margin-left: 900px;
+  }
+  #mydiv6 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 100pt;
+    line-height: 120px;
+    color: black;
+  }
+  
+  #mydivheader6 {
+    /* padding: 10px; */
+    cursor: grab;
+    z-index: 10;
+    margin-top: 0px;
+    margin-left: 1100px;
+  }
 
   @media screen and (max-width: 480px){
     h2{
