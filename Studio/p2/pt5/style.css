@@ -1,3 +1,7 @@
+body{
+  width: 100vw;
+  height: 100vh;
+}
 h1{
     font-family: Arial, "Bold", sans-serif;
     font-size: 150pt;
@@ -119,15 +123,16 @@ h3:hover{
     padding: 10px;
     cursor: grab;
     z-index: 10;
-    margin-top: -1000px;
-    margin-left: 50px;
+    margin-top: -400px; 
+    margin-left: 400px;
+    transform: rotate(60deg);
   }
   #mydiv6 {
     position: absolute;
     z-index: 9;
     text-align: center;
-    font-family: Arial, "Bold", sans-serif;
-    font-size: 1000pt;
+    font-family: Arial, "Bold", sans-serif;                                                              
+    font-size: 800pt;
     line-height: 120px;
     color: black;
   }
@@ -137,15 +142,16 @@ h3:hover{
     padding: 10px;
     cursor: grab;
     z-index: 10;
-    margin-top: -900px;
-    margin-left: -70px;
+    margin-top: -300px;
+    margin-left: 100px;
+    transform: rotate(-50deg);
   }
   #mydiv7 {
     position: absolute;
     z-index: 9;
     text-align: center;
     font-family: Arial, "Bold", sans-serif;
-    font-size: 600pt;
+    font-size: 400pt;
     line-height: 120px;
     color: rgba(0, 0, 0, 0);
 	-webkit-text-stroke: 5px black;
@@ -155,8 +161,9 @@ h3:hover{
     /* padding: 10px; */
     cursor: grab;
     z-index: 10;
-    margin-top: -300px;
-    margin-left: 850px;
+    margin-top: -500px;
+    margin-left: 1000px;
+    transform: rotate(30deg);
   }
 
   #mydiv8 {
@@ -164,7 +171,7 @@ h3:hover{
     z-index: 9;
     text-align: center;
     font-family: Arial, "Bold", sans-serif;
-    font-size: 500pt;
+    font-size: 700pt;
     line-height: 120px;
     color: rgba(0, 0, 0, 0);
 	-webkit-text-stroke: 5px black;
@@ -175,7 +182,8 @@ h3:hover{
     cursor: grab;
     z-index: 10;
     margin-top: -400px;
-    margin-left: 700px;
+    margin-left: 400px;
+    transform: rotate(40deg);
   }
 
   #mydiv9 {
@@ -183,7 +191,7 @@ h3:hover{
     z-index: 9;
     text-align: center;
     font-family: Arial, "Bold", sans-serif;
-    font-size: 500pt;
+    font-size: 700pt;
     line-height: 120px;
     color: rgba(0, 0, 0, 0);
 	-webkit-text-stroke: 5px black;
@@ -194,7 +202,8 @@ h3:hover{
     cursor: grab;
     z-index: 10;
     margin-top: -500px;
-    margin-left: 500px;
+    margin-left: 200px;
+    transform: rotate(50deg);
   }
 
   #mydiv10 {
@@ -202,7 +211,7 @@ h3:hover{
     z-index: 9;
     text-align: center;
     font-family: Arial, "Bold", sans-serif;
-    font-size: 500pt;
+    font-size: 300pt;
     line-height: 120px;
     color: rgba(0, 0, 0, 0);
 	-webkit-text-stroke: 5px black;
@@ -214,6 +223,7 @@ h3:hover{
     z-index: 10;
     margin-top: -200px;
     margin-left: 300px;
+    transform: rotate(-70deg);
   }
 
   #mydiv11 {

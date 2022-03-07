@@ -1,0 +1,108 @@
+h2{
+    font-family: Arial, Bold, sans-serif;
+    width: 100vw;
+    padding-top: 50px;
+    padding-right: 50px;
+    line-height: 30pt;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 100px;
+    margin-right: 100px; 
+    max-width: 80ch;
+    text-indent: 40px;
+    color: white;
+}
+body{
+    background-color: black;
+}
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 800pt;
+    line-height: 120px;
+    color: white;
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
+    margin-top: 200px;
+    margin-left: 500px;
+    transform: rotate(60deg);
+  }
+  .dropbtn {
+    background-color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  img{
+    width: 50px;
+    height: auto;
+    background-color: black;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+   
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+    font-family: Arial, Bold, sans-serif;
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content:hover, a:visited, a:link, a:active
+    {
+        color: black;
+        text-decoration: none;
+    }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {opacity: 1.0;}
+
+  #mydiv2 {
+    position: absolute;
+    z-index: 9;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 800pt;
+    line-height: 120px;
+    color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke: 5px white;
+  }
+  
+  #mydivheader2 {
+    /* padding: 10px; */
+    cursor: grab;
+    z-index: 10;
+    margin-top: 500px;
+    margin-left: 800px;
+    transform: rotate(-30deg);
+  }
+
+  @media screen and (max-width: 480px){
+    h2{
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #mydiv, #mydiv2, #mydiv3, #mydiv4, #mydiv5{
+        font-size: 50pt;
+        line-height: 50px;
+    }
+}

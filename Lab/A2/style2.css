@@ -1,15 +1,14 @@
 body{
-    position: relative;
-    position: center;
-    width: 2000px;
-    height: 2000px;
-    /* margin-top: 200px; */
-    background: linear-gradient(180deg, #f9f8e1 0%, #54af64 100%);
+position: relative;
+position: center;
+width: 100vw;
+height: 100vh;
+background: linear-gradient(180deg, #f9f8e1 0%, #54af64 100%);
   }
 h1{
-    color: #f1e9d9;
-    position: absolute;
-    text-align: left;
+color: #f1e9d9;
+position: absolute;
+text-align: left;
 width: 871px;
 height: 192px;
 left: 1000px;
@@ -20,6 +19,13 @@ font-weight: normal;
 font-size: 100px;
 line-height: 150px;
 align-items: left;
+}
+
+#seedling{
+ transform: rotate(90deg); 
+ margin-top: -600px;
+ margin-left: 500px;
+
 }
 
 h1:hover {

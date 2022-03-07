@@ -1,0 +1,282 @@
+body{
+    width: 100vw;
+    height: 100vh;
+  }
+  h1{
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 150pt;
+      margin-top: 50px;
+      line-height: 160px;
+      
+  }
+  h1:hover {
+      color: white;
+      -webkit-text-stroke: 2px black;
+      }
+  
+  
+  h2{
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 50pt;
+  }
+  h3:hover{
+      color: white;
+      -webkit-text-stroke: 2px black;
+  }
+  .menu{
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 80pt;
+      margin-top: 1000px;
+  }
+  .menu:hover, a:visited, a:link, a:active
+  {
+      color: black;
+      text-decoration: none;
+  }
+  #mydiv {
+      position: absolute;
+      z-index: 9;
+      text-align: center;
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 600pt;
+      line-height: 120px;
+      color: black;
+    }
+    
+    #mydivheader {
+      /* padding: 10px; */
+      cursor: grab;
+      z-index: 10;
+      margin-top: -300px;
+      margin-left: 850px;
+    }
+  
+    #mydiv2 {
+      position: absolute;
+      z-index: 9;
+      text-align: center;
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 500pt;
+      line-height: 120px;
+      color: black;
+    }
+    
+    #mydivheader2 {
+      padding: 10px;
+      cursor: grab;
+      z-index: 10;
+      margin-top: -400px;
+      margin-left: 700px;
+    }
+  
+    #mydiv3 {
+      position: absolute;
+      z-index: 9;
+      text-align: center;
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 500pt;
+      line-height: 120px;
+      color: black;
+    }
+    
+    #mydivheader3 {
+      padding: 10px;
+      cursor: grab;
+      z-index: 10;
+      margin-top: -500px;
+      margin-left: 500px;
+    }
+  
+    #mydiv4 {
+      position: absolute;
+      z-index: 9;
+      text-align: center;
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 500pt;
+      line-height: 120px;
+      color: black;
+    }
+    
+    #mydivheader4 {
+      padding: 10px;
+      cursor: grab;
+      z-index: 10;
+      margin-top: -200px;
+      margin-left: 300px;
+    }
+  
+    #mydiv5 {
+      position: absolute;
+      z-index: 9;
+      text-align: center;
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 1000pt;
+      line-height: 120px;
+      color: black;
+    }
+    
+    #mydivheader5 {
+      padding: 10px;
+      cursor: grab;
+      z-index: 10;
+      margin-top: -400px; 
+      margin-left: 400px;
+      transform: rotate(60deg);
+    }
+    #mydiv6 {
+      position: absolute;
+      z-index: 9;
+      text-align: center;
+      font-family: Arial, "Bold", sans-serif;                                                              
+      font-size: 800pt;
+      line-height: 120px;
+      color: black;
+    }
+    
+    
+    #mydivheader6 {
+      padding: 10px;
+      cursor: grab;
+      z-index: 10;
+      margin-top: -300px;
+      margin-left: 100px;
+      transform: rotate(-50deg);
+    }
+    #mydiv7 {
+      position: absolute;
+      z-index: 9;
+      text-align: center;
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 400pt;
+      line-height: 120px;
+      color: rgba(0, 0, 0, 0);
+      -webkit-text-stroke: 5px black;
+    }
+    
+    #mydivheader7 {
+      /* padding: 10px; */
+      cursor: grab;
+      z-index: 10;
+      margin-top: -500px;
+      margin-left: 1000px;
+      transform: rotate(30deg);
+    }
+  
+    #mydiv8 {
+      position: absolute;
+      z-index: 9;
+      text-align: center;
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 700pt;
+      line-height: 120px;
+      color: rgba(0, 0, 0, 0);
+      -webkit-text-stroke: 5px black;
+    }
+    
+    #mydivheader8 {
+      padding: 10px;
+      cursor: grab;
+      z-index: 10;
+      margin-top: -400px;
+      margin-left: 400px;
+      transform: rotate(40deg);
+    }
+  
+    #mydiv9 {
+      position: absolute;
+      z-index: 9;
+      text-align: center;
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 700pt;
+      line-height: 120px;
+      color: rgba(0, 0, 0, 0);
+      -webkit-text-stroke: 5px black;
+    }
+    
+    #mydivheader9 {
+      padding: 10px;
+      cursor: grab;
+      z-index: 10;
+      margin-top: -500px;
+      margin-left: 200px;
+      transform: rotate(50deg);
+    }
+  
+    #mydiv10 {
+      position: absolute;
+      z-index: 9;
+      text-align: center;
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 300pt;
+      line-height: 120px;
+      color: rgba(0, 0, 0, 0);
+      -webkit-text-stroke: 5px black;
+    }
+    
+    #mydivheader10 {
+      padding: 10px;
+      cursor: grab;
+      z-index: 10;
+      margin-top: -200px;
+      margin-left: 300px;
+      transform: rotate(-70deg);
+    }
+  
+    #mydiv11 {
+      position: absolute;
+      z-index: 9;
+      text-align: center;
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 1000pt;
+      line-height: 120px;
+      color: rgba(0, 0, 0, 0);
+      -webkit-text-stroke: 5px black;
+    }
+    
+    #mydivheader11 {
+      padding: 10px;
+      cursor: grab;
+      z-index: 10;
+      margin-top: -1000px;
+      margin-left: 50px;
+    }
+    #mydiv12 {
+      position: absolute;
+      z-index: 9;
+      text-align: center;
+      font-family: Arial, "Bold", sans-serif;
+      font-size: 800pt;
+      line-height: 120px;
+      color: rgba(0, 0, 0, 0);
+      -webkit-text-stroke: 5px black;
+    }
+    
+    
+    #mydivheader12 {
+      padding: 10px;
+      cursor: grab;
+      z-index: 10;
+      margin-top: -700px;
+      margin-left: -100px;
+    }
+    @media screen and (max-width: 1024px){
+      h1{
+          font-size: 50pt;
+          line-height: 50px;
+      }
+      h2{
+          font-size: 20pt;
+          line-height: 20px;
+      }
+      #mydiv, #mydiv2, #mydiv3, #mydiv4, #mydiv5{
+          font-size: 400pt;
+          line-height: 50px;
+      }
+      h3{
+          font-size: 30pt;
+          line-height: 100px;
+      }
+      body{
+          margin: 50px;
+      }
+  }
