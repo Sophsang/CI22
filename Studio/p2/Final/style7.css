@@ -1,16 +1,17 @@
 h2{
-    font-family: Arial, Bold, sans-serif;
-    width: 100vw;
-    padding-top: 50px;
-    padding-right: 50px;
+    font-family: "Avenir", sans-serif;
+    width: 50%;
+    padding: 10px;
     line-height: 30pt;
     text-align: justify;
     text-justify: inter-word;
-    margin-left: 100px;
-    margin-right: 100px; 
-    max-width: 80ch;
+    max-width: 60ch;
     text-indent: 40px;
     color: white;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    
 }
 body{
     background-color: black;
@@ -39,7 +40,7 @@ body{
     background-color: #f1f1f1;
     min-width: 160px;
     z-index: 1;
-    font-family: Arial, Bold, sans-serif;
+    font-family: "Avenir", sans-serif;
   }
   
    .dropdown-content a {
@@ -61,18 +62,18 @@ body{
 
 
 h3{
-    font-family: Arial, Bold, sans-serif;
-    width: 100vw;
-    padding-top: 50px;
-    padding-right: 50px;
+    font-family: "Avenir", sans-serif;
+    width: 50%;
+    padding: 10px;
     line-height: 30pt;
     text-align: justify;
     text-justify: inter-word;
-    margin-left: 100px;
-    margin-right: 100px; 
     max-width: 80ch;
     font-size: 18pt;
     color: white;
+    margin: auto;
+    left: 50%;
+    top: 50%;
 }
 #mydiv {
     position: absolute;
@@ -89,7 +90,7 @@ h3{
     z-index: 10;
     margin-top: 200px;
     margin-left: 500px;
-    transform: rotate(60deg);
+    transform: rotate(-60deg);
   }
 
   #mydiv2 {
@@ -103,22 +104,80 @@ h3{
   }
   
   #mydivheader2 {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
+    margin-top: -200px;
+    margin-left: 500px;
+  }
+  #mydiv3 {
+    position: absolute;
+    z-index: 9;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 800pt;
+    line-height: 120px;
+    color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke: 5px white;
+  }
+  
+  #mydivheader3 {
+    padding: 10px;
     cursor: grab;
     z-index: 10;
     margin-top: 100px;
-    margin-left: 400px;
-    transform: rotate(-50deg);
+    margin-left: 200px;
+    transform: rotate(20deg);
+  }
+  #mydiv4 {
+    position: absolute;
+    z-index: 9;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 800pt;
+    line-height: 120px;
+    color: white;
+  }
+  
+  #mydivheader4 {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
+    margin-top: 300px;
+    margin-left: 300px;
+    transform: rotate(50deg);
   }
 
-
-  @media screen and (max-width: 480px){
+  @media screen and (max-width: 1024px){
+    body{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     h2{
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
+        font-family: "Avenir", sans-serif;
+        font-size: 16pt;
+        width: 50%;
+        padding: 10px;
+        line-height: 20pt;
+        text-align: justify;
+        text-justify: inter-word;
+        max-width: 60ch;
+        text-indent: 20px;
+        margin:0 auto;
+        
+        }
+        #mydiv{
+        font-size: 500pt;
+        }
+        #mydiv2{
+        font-size: 500pt;
+        /* margin-top: 200px;
+        margin-left: -500px; */
+        }
+        #mydiv3{
+          font-size: 500pt;
+          }
+        #mydiv4{
+          font-size: 500pt;
+          /* margin-top: 200px;
+          margin-left: -500px; */
+          }
     }
-    #mydiv, #mydiv2, #mydiv3, #mydiv4, #mydiv5{
-        font-size: 50pt;
-        line-height: 50px;
-    }
-}

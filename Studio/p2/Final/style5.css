@@ -1,37 +1,23 @@
 h2{
-    font-family: Arial, Bold, sans-serif;
-    width: 100vw;
-    padding-top: 50px;
-    padding-right: 50px;
+    font-family: "Avenir", sans-serif;
+    width: 50%;
+    padding: 10px;
     line-height: 30pt;
     text-align: justify;
     text-justify: inter-word;
-    margin-left: 100px;
-    margin-right: 100px; 
-    max-width: 80ch;
-    text-indent: 40px;
+    max-width: 60ch;
     color: white;
+    /* position: absolute; */
+    text-indent: 40px;
+    /* left: 50%; */
+    top: 100%;
+    margin: auto;
+    /* transform: translate(-50%,-50%); */
 }
 body{
     background-color: black;
 }
-#mydiv {
-    position: absolute;
-    z-index: 9;
-    font-family: Arial, "Bold", sans-serif;
-    font-size: 800pt;
-    line-height: 120px;
-    color: white;
-  }
-  
-  #mydivheader {
-    padding: 10px;
-    cursor: grab;
-    z-index: 10;
-    margin-top: 200px;
-    margin-left: 500px;
-    transform: rotate(60deg);
-  }
+
   .dropbtn {
     background-color: black;
     padding: 16px;
@@ -55,8 +41,9 @@ body{
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
-    font-family: Arial, Bold, sans-serif;
+    font-family: "Avenir", sans-serif;
   }
   
   .dropdown-content a {
@@ -75,6 +62,23 @@ body{
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {opacity: 1.0;}
+  #mydiv {
+    position: absolute;
+    z-index: 9;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 800pt;
+    line-height: 120px;
+    color: white;
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
+    margin-top: 200px;
+    margin-left: 500px;
+    transform: rotate(60deg);
+  }
 
   #mydiv2 {
     position: absolute;
@@ -90,19 +94,119 @@ body{
     /* padding: 10px; */
     cursor: grab;
     z-index: 10;
+    margin-top: 100px;
+    margin-left: 200px;
+    transform: rotate(30deg);
+  }
+  #mydiv3 {
+    position: absolute;
+    z-index: 9;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 800pt;
+    line-height: 120px;
+    color: white;
+  }
+  
+  #mydivheader3 {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
     margin-top: 500px;
+    margin-left: 200px;
+    }
+
+  #mydiv4 {
+    position: absolute;
+    z-index: 9;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 800pt;
+    line-height: 120px;
+    color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke: 5px white;
+  }
+  
+  #mydivheader4 {
+    /* padding: 10px; */
+    cursor: grab;
+    z-index: 10;
+    margin-top: -200px;
+    margin-left: 500px;
+  }
+  #mydiv5 {
+    position: absolute;
+    z-index: 9;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 800pt;
+    line-height: 120px;
+    color: white;
+  }
+  
+  #mydivheader5 {
+    padding: 10px;
+    cursor: grab;
+    z-index: 10;
+    margin-top: 800px;
+    margin-left: 900px;
+    transform: rotate(60deg);
+  }
+
+  #mydiv6 {
+    position: absolute;
+    z-index: 9;
+    font-family: Arial, "Bold", sans-serif;
+    font-size: 800pt;
+    line-height: 120px;
+    color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke: 5px white;
+  }
+  
+  #mydivheader6 {
+    /* padding: 10px; */
+    cursor: grab;
+    z-index: 10;
+    margin-top: 900px;
     margin-left: 800px;
     transform: rotate(-30deg);
   }
 
-  @media screen and (max-width: 480px){
+  @media screen and (max-width: 1024px){
+    body{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     h2{
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
+        font-family: "Avenir", sans-serif;
+        font-size: 16pt;
+        width: 50%;
+        padding: 10px;
+        line-height: 20pt;
+        text-align: justify;
+        text-justify: inter-word;
+        max-width: 60ch;
+        text-indent: 20px;
+        margin:0 auto;
+        
+        }
+        #mydiv{
+        font-size: 500pt;
+        }
+        #mydiv2{
+        font-size: 500pt;
+        /* margin-top: 200px;
+        margin-left: -500px; */
+        }
+        #mydiv3{
+          font-size: 500pt;
+          }
+          #mydiv4{
+          font-size: 500pt;
+          /* margin-top: 200px;
+          margin-left: -500px; */
+          }
+          #mydiv5{
+            font-size: 500pt;
+            } 
+          #mydiv6{
+              font-size: 500pt;
+              }
     }
-    #mydiv, #mydiv2, #mydiv3, #mydiv4, #mydiv5{
-        font-size: 50pt;
-        line-height: 50px;
-    }
-}
