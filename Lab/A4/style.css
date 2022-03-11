@@ -1,0 +1,38 @@
+.rotate:hover {
+  height: 400px;
+  width: 400px;
+  transition: 5s;
+  transform: rotate(360deg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  }
+
+  .rotate{
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  }
+  
+
+  body{
+    position: relative;
+    position: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 200px;
+    background: linear-gradient(180deg, #f9f8e1 0%, #54af64 100%);
+  }
+  ::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+@media screen and (max-width: 1024px){
+  .rotate, .rotate:hover{
+      height: 200px;
+      width: auto;
+  }
+}

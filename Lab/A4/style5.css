@@ -1,0 +1,180 @@
+/* body{
+    position: relative;
+    position: center;
+    width: 2000px;
+    height: 1000px; 
+    background: linear-gradient(180deg, #f9f8e1 0%, #54af64 100%);
+  } */
+h1{
+    color:  #54af64;
+    width: 871px;
+    height: 192px;
+    left: 1000px;
+    top: 1000px;
+    font-family: "Futura", serif;
+    font-size: 40px;
+    line-height: 150px;
+    align-items: left;
+}
+.basket{
+  margin-left: 500px;
+}
+/* .img{
+  width: 20px;
+  height: auto;
+} */
+
+h1:hover, a:visited, a:link, a:active {
+    color: #b2d100;
+    text-decoration: none; 
+  }
+
+
+  ::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+  
+}
+
+#mydivheader {
+  cursor: grab;
+  z-index: 10;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 50px;
+  height: auto;
+}
+#mydiv2 {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+  
+}
+
+#mydivheader2 {
+  cursor: grab;
+  z-index: 10;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 50px;
+  height: auto;
+}
+#mydiv3 {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+  
+}
+
+#mydivheader3 {
+  cursor: grab;
+  z-index: 10;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 50px;
+  height: auto;
+}
+#mydiv4 {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+  
+}
+
+#mydivheader4 {
+  cursor: grab;
+  z-index: 10;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 50px;
+  height: auto;
+}
+#mydiv5 {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+  
+}
+
+#mydivheader5 {
+  cursor: grab;
+  z-index: 10;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 50px;
+  height: auto;
+}
+#mydiv6 {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+  
+}
+
+#mydivheader6 {
+  cursor: grab;
+  z-index: 10;
+  margin-top: -500px;
+  margin-left: 50px;
+}
+
+.basket{
+  margin-top: 0px;
+}
+
+#draggable1 {
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  cursor: grab;
+  margin-top: -100px;
+  margin-left: 10px;
+}
+#draggable2 {
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  cursor: grab;
+  margin-top: -300px;
+  margin-left: 1000px;
+}
+#draggable3 {
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  cursor: grab;
+  margin-top: -80px;
+  margin-left: 100px;
+}
+#draggable4 {
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  cursor: grab;
+  margin-top: 0px;
+  margin-left: 400px;
+}
+#draggable5 {
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  cursor: grab;
+  margin-top: 0px;
+  margin-left: 750px;
+}
+#draggable6 {
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  cursor: grab;
+  margin-top: 100px;
+  margin-left: 1000px;
+}
+
+
+
+

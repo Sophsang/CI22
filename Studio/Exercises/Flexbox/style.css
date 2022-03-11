@@ -1,0 +1,301 @@
+h1{
+    font-size: 60pt;
+    font-family: "Century Gothic", sans-serif; 
+    margin: 0 auto;
+    color: bisque;
+    margin-top: -250px;
+}
+h2{
+    font-size: 60pt;
+    font-family: "Mina", cursive; 
+    color: bisque;
+}
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+}
+
+.flexbox-item {
+    width: 100px;
+    margin: 10px;
+    /* border: 3px solid #333;
+    background-color: #dfdfdf; */
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 1;
+}
+
+.flexbox-item-2 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 2;
+}
+
+.flexbox-item-3 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 3;
+}
+
+.flexbox-item-4 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 4;
+}
+
+.flexbox-item-5 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 5;
+}
+
+.flexbox-item-6 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 6;
+}
+
+.flexbox-item-7 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 7;
+}
+
+
+
+
+/* Background Styles */
+html {
+    height: 100%;
+    background-color: rgb(86, 122, 139);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.flexbox-container {
+    position: relative;
+}
+/* 
+.flexbox-container::before {
+    position: absolute;
+    top: 40px;
+    font-size: 2em;
+} */
+
+/* .axis {
+    position: absolute;
+} */
+
+/* .cross-axis {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 100%;
+    background-color: blue;
+} */
+
+/* .main-axis {
+    top: 50%;
+    transform: translateY(-50%);
+    height: 5px;
+    width: 100%;
+    background-color: red;
+} */
+
+/* .axis::after {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 2em;
+}
+
+.main-axis::after {
+    position: absolute;
+    content: 'Main Axis';
+    color: red;
+}
+
+.cross-axis::after {
+    white-space: nowrap;
+    content: 'Cross Axis';
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: blue;
+} */
+
+.flexbox-item {
+    position: relative;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #333;
+    background-color: bisque;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 10px;
+    height: 10px;
+   
+}
+
+.flexbox-item-1::before {
+    content: 'Sunday';
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-family: "Mina", cursive;
+    top: 10px;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.flexbox-item-2::before {
+    content: 'Monday';
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-family: "Mina", cursive;
+    top: 10px;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.flexbox-item-3::before {
+    content: 'Tuesday';
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-family: "Mina", cursive;
+    top: 10px;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.flexbox-item-4::before {
+    content: 'Wednesday';
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-family: "Mina", cursive;
+    top: 10px;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.flexbox-item-5::before {
+    content: 'Thursday';
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-family: "Mina", cursive;
+    top: 10px;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.flexbox-item-6::before {
+    content: 'Friday';
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-family: "Mina", cursive;
+    top: 10px;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.flexbox-item-7::before {
+    content: 'Saturday';
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-family: "Mina", cursive;
+    top: 10px;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.flexbox-item::after {
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    right: 15px;
+}
+
+.flexbox-item-8::after {
+    content: '1';
+}
+
+.flexbox-item-9::after {
+    content: '2';
+}
+
+.flexbox-item-10::after {
+    content: '3';
+}
+
+.flexbox-item-11::after {
+    content: '4';
+}
+
+.flexbox-item-12::after {
+    content: '5';
+}
+
+.flexbox-item-13::after {
+    content: '6';
+}
+.flexbox-item-14::after {
+    content: '6';
+}

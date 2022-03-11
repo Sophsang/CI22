@@ -1,0 +1,39 @@
+body{
+  position: relative;
+  position: center;
+  background: linear-gradient(180deg, #f9f8e1 0%, #54af64 100%);    
+}
+  h1{
+  color: #f1e9d9;
+  font-family: "Futura", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 150px;
+  position: absolute;
+  left: 50%;
+  margin-top: -1500px;
+  }
+  .flexbox-item{
+      width: 100vw;
+      height: auto;
+      align-items: left;
+  }
+  
+  #seedling{
+   transform: rotate(90deg); 
+   margin-top: -200px;
+  }
+  
+  h1:hover {
+      color: #10490e;
+    }
+    
+  
+  
+    ::-webkit-scrollbar{width:2px;height:2px;}
+  ::-webkit-scrollbar-button{width:2px;height:2px;}
+  
+  
+  
+  
