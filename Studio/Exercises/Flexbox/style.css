@@ -3,25 +3,33 @@ h1{
     font-family: "Century Gothic", sans-serif; 
     margin: 0 auto;
     color: bisque;
-    margin-top: -250px;
+    margin-top: 400px;
 }
 h2{
     font-size: 60pt;
     font-family: "Mina", cursive; 
     color: bisque;
 }
+/* .row4{
+    flex-grow: 4;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    /* display: flex; 
+}*/
 .flexbox-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-basis: 0;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
 }
 
 .flexbox-item {
     width: 100px;
     margin: 10px;
-    /* border: 3px solid #333;
-    background-color: #dfdfdf; */
 }
 
 .flexbox-item-1 {
@@ -87,6 +95,329 @@ h2{
     order: 7;
 }
 
+.flexbox-item-8 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 8;
+}
+
+.flexbox-item-9 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 9;
+}
+
+.flexbox-item-10 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 10;
+}
+
+.flexbox-item-11 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 11;
+}
+
+.flexbox-item-12 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 12;
+}
+
+.flexbox-item-13 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 13;
+}
+
+.flexbox-item-14 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 14;
+}
+
+
+.flexbox-item-15 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 15;
+}
+
+.flexbox-item-16 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 16;
+}
+
+.flexbox-item-17 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 17;
+}
+
+.flexbox-item-18 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 18;
+}
+
+.flexbox-item-19 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 19;
+}
+
+.flexbox-item-20 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 20;
+}
+
+.flexbox-item-21 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 21;
+}
+
+.flexbox-item-22 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 22;
+}
+
+.flexbox-item-23 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 23;
+}
+
+.flexbox-item-24 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 24;
+}
+
+.flexbox-item-25 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 25;
+}
+
+.flexbox-item-26 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 26;
+}
+
+.flexbox-item-27 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 27;
+}
+
+.flexbox-item-28 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 28;
+}
+
+.flexbox-item-29 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 29;
+}
+
+.flexbox-item-30 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 30;
+}
+
+.flexbox-item-31 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 31;
+}
+
+.flexbox-item-32 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 32;
+}
+
+.flexbox-item-33 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 33;
+}
+
+.flexbox-item-34 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 34;
+}
+
+.flexbox-item-35 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 35;
+}
+
+.flexbox-item-36 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 5;
+    flex-basis: 0;
+    /* align-self: center; */
+    order: 36;
+}
+
+.flexbox-item-37 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 5;
+    flex-basis: 0;
+    align-self: flex-start;
+    order: 37;
+}
+
+.flexbox-item-38 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 5;
+    flex-basis: 0;
+    align-self: flex-end;
+    order: 38;
+}
+
+.flexbox-item-39 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 39;
+}
+
+.flexbox-item-40 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    /* align-self: center; */
+    order: 40;
+}
+
+.flexbox-item-41 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: flex-start;
+    order: 41;
+}
+
+.flexbox-item-42 {
+    min-height: 100px;
+    width: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: flex-end;
+    order: 42;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -103,53 +434,6 @@ html {
 .flexbox-container {
     position: relative;
 }
-/* 
-.flexbox-container::before {
-    position: absolute;
-    top: 40px;
-    font-size: 2em;
-} */
-
-/* .axis {
-    position: absolute;
-} */
-
-/* .cross-axis {
-    left: 50%;
-    transform: translateX(-50%);
-    width: 5px;
-    height: 100%;
-    background-color: blue;
-} */
-
-/* .main-axis {
-    top: 50%;
-    transform: translateY(-50%);
-    height: 5px;
-    width: 100%;
-    background-color: red;
-} */
-
-/* .axis::after {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    font-size: 2em;
-}
-
-.main-axis::after {
-    position: absolute;
-    content: 'Main Axis';
-    color: red;
-}
-
-.cross-axis::after {
-    white-space: nowrap;
-    content: 'Cross Axis';
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    color: blue;
-} */
 
 .flexbox-item {
     position: relative;
@@ -297,5 +581,104 @@ html {
     content: '6';
 }
 .flexbox-item-14::after {
-    content: '6';
+    content: '7';
+}
+.flexbox-item-15::after {
+    content: '8';
+}
+
+.flexbox-item-16::after {
+    content: '9';
+}
+
+.flexbox-item-17::after {
+    content: '10';
+}
+
+.flexbox-item-18::after {
+    content: '11';
+}
+
+.flexbox-item-19::after {
+    content: '12';
+}
+
+.flexbox-item-20::after {
+    content: '13';
+}
+.flexbox-item-21::after {
+    content: '14';
+}
+
+.flexbox-item-22::after {
+    content: '15';
+}
+
+.flexbox-item-23::after {
+    content: '16';
+}
+
+.flexbox-item-24::after {
+    content: '17';
+}
+
+.flexbox-item-25::after {
+    content: '18';
+}
+.flexbox-item-26::after {
+    content: '19';
+}
+
+.flexbox-item-27::after {
+    content: '20';
+}
+
+.flexbox-item-28::after {
+    content: '21';
+}
+.flexbox-item-29::after {
+    content: '22';
+}
+
+.flexbox-item-30::after {
+    content: '23';
+}
+
+.flexbox-item-31::after {
+    content: '24';
+}
+
+.flexbox-item-32::after {
+    content: '25';
+}
+
+.flexbox-item-33::after {
+    content: '26';
+}
+.flexbox-item-34::after {
+    content: '27';
+}
+.flexbox-item-35::after {
+    content: '28';
+}
+.flexbox-item-36::after {
+    content: '29';
+}
+.flexbox-item-37::after {
+    content: '30';
+}
+.flexbox-item-38::after {
+    content: '31';
+}
+.flexbox-item-39::after {
+    display: none;
+}
+.flexbox-item-40::after {
+    display: none;
+}
+.flexbox-item-41::after {
+    display: none;
+}
+.flexbox-item-42::after {
+    display: none;
 }
