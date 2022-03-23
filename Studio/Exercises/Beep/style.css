@@ -1,21 +1,19 @@
 #myButton {
 	box-shadow: 0px 10px 14px -7px #276873;
-	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-	background-color:#599bb3;
+	background-color:#764c04;
 	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size:20px;
 	font-weight:bold;
 	padding:13px 32px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
+	text-shadow:0px 1px 0px #583903;
 }
 #myButton:hover {
-	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
+	background-color:#943b14;
 }
 #myButton:active {
 	position:relative;
@@ -24,7 +22,6 @@
 #myButton2 {
 	background-color:#09779f;
 	border-radius:28px;
-	border:1px solid #09779f;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -37,7 +34,8 @@
     margin-left: 200px;
 }
 #myButton2:hover {
-	background-color:#000000;
+	color: #000;
+	background-color:#ecb868;
 }
 #myButton2:active {
 	position:relative;
@@ -48,7 +46,7 @@ body{
 	background-color: white;
 	}
 	
-	.myButton3 {
+	#myButton3 {
 	margin-top: 100px;
 	margin-left: 200px;
 	background-color:#E92020;
@@ -62,15 +60,15 @@ body{
 	padding:16px 31px;
 	text-decoration:none;
 	}
-	.myButton3:hover {
+	#myButton3:hover {
 	background: color #000;;
 	}
-	.myButton3:active {
+	#myButton3:active {
 	position:relative;
 	top:1px;
 	}
 	
-	.myButton4 {
+	#myButton4 {
 	margin-top: 100px;
 	margin-left:200px;
 	background-color:#116af0;
@@ -84,12 +82,58 @@ body{
 	padding:16px 31px;
 	text-decoration:none;
 	}
-	.myButton4:hover {
+	#myButton4:hover {
 	background: color #002fc9;
 	
 	}
-	.myButton4:active {
+	#myButton4:active {
 	position:relative;
 	top:1px;
 	}
+
+	#myButton5 {
+		margin-top: 100px;
+		margin-left:200px;
+		background-color:#f0a911;
+		border-radius:28px;
+		border:1px solid #f0a911;
+		display:inline-block;
+		cursor:pointer;
+		color:#000000;
+		font-family:monospace;
+		font-size:17px;
+		padding:16px 31px;
+		text-decoration:none;
+		}
+		#myButton5:hover {
+		background: color #ce8d00;
+		
+		}
+		#myButton5:active {
+		position:relative;
+		top:1px;
+		}
+
+		#myButton6 {
+			margin-top: 100px;
+			margin-left:200px;
+			background-color:#3ab123;
+			border-radius:28px;
+			border:1px solid #3ab123;
+			display:inline-block;
+			cursor:pointer;
+			color:#000000;
+			font-family:monospace;
+			font-size:17px;
+			padding:16px 31px;
+			text-decoration:none;
+			}
+			#myButton6:hover {
+			background: color #1e9406;
+			
+			}
+			#myButton6:active {
+			position:relative;
+			top:1px;
+			}
 
