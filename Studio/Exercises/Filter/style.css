@@ -1,0 +1,90 @@
+*{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+
+img {
+	width: 350px;
+	position: absolute;
+}
+
+.BowTie {
+	top: 50%;
+	left: 60%;
+}
+
+.Fusilli {
+	top: 30%;
+	left: 10%;
+}
+
+.Linguine {
+	top: 20%;
+	left: 40%;
+
+}
+
+.Shells {
+	top: 60%;
+	left: 40%;
+	/* z-index: 10; */
+}
+
+.Spaghetti {
+	top: 50%;
+	left: 60%;
+	z-index: 10;
+}
+
+.Macaroni {
+	top: 60%;
+	left: 10%;
+	z-index: 10;
+}
+
+.Penne {
+	top: 60%;
+	left: 40%;
+	z-index: 10;
+}
+
+.Rigatoni {
+	top: 30%;
+	left: 40%;
+	z-index: 10;
+}
+
+h1{
+	width: 50%;
+	text-align: center;
+	margin:35px auto;
+	padding:14px;
+	color:red;
+	background:yellow;
+	font-family: helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+select{
+	font-size:35px;
+	margin:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
