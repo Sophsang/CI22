@@ -81,15 +81,44 @@
 
     <script>
       window.addEventListener('DOMContentLoaded', () => {
-        const channel = 'eggs-htpw-w3a1rc';
+        const channel = 'p3-elastic-collections-doors';
 
         fetch(`https://api.are.na/v2/channels/${channel}?per=100`, {cache: 'no-store'})
           .then(response => response.json())
           .then(data => {
-            console.log(data);
+            // console.log(data);
+            renderTitle(data);
+            renderBlocks(data);
+
           });
         
       });
+
+      const renderTitle = (data) =>{
+      let title = data['title'];
+      document.getElementById('channel-title').innerText = title;
+    };
+
+    const renderBlocks = (data) => {
+      // let title = data['title'];
+      let blocks = data['contents'];
+      blocks.forEach((block) => {
+        let blockClass = block['class'];
+        console.log(blockClass);
+        if (blockClass == 'Image') {
+          renderImage(block);
+        }
+    });
+  };
+
+  const renderImage = (block) => {
+    let imageUrl = block ['image']['display']['url'];
+    let imageBlockTemplate = document.getElementById('image-block');
+    let clone = imageBlockTemplate.content.cloneNode(true);
+    clone.querySelector('img').src = imageUrl;
+    document.getElementById('contents').appendChild(clone);
+  };
+
     </script>
   </body>
 </html>

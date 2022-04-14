@@ -1,22 +1,134 @@
 body{
-    background-color: rgb(64, 64, 65);
-
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
 }
 h1{
     font-family: 'Sovana';
+    color: black;
+    font-size: 150pt;
+    text-align: left;
+    margin-top: 30px;
+}
+h2{
+    font-family: 'Sovana';
+    color: black;
+    font-size: 150pt;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 1000px;
+}
+p{
+    font-size: 100pt;
+    margin-top: 600px;
+    margin-left: 500px;
+}
+.mySlides {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow-x: auto;
+    margin: 20px;
+  }
+  div.container a{
+    display: inline-block;
     color: white;
-    font-size: 70pt;
     text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+
+  img {
+    flex: 0 0 auto;
+    width: auto;
+    height: 400px;
+    max-width: 100%;
+    margin-right: 10px;
+  }
+
+  :root {
+    --margin: 10px;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrapper {
+    margin: var(--margin);
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  
+  #contents {
+    /* background-color: #333; */
+    overflow: auto;
+    white-space: nowrap;
+    /* display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr)); */
+    grid-gap: var(--margin);
+    align-items: start;
+    justify-items: start;
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .block {
+    padding: var(--margin);
+    background-color: white;
+  }
+
+  .block block--image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s;
+  }
+  
+  [id^="block block--image"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+  }
+  
+
+/* div.rectangle {
+    background-color: lightblue;
+    width: 40px;
+    overflow-x: scroll;
+  } */
+
+  /* .dropdwn {
+    background: rgb(255, 255, 255);
+  width: 100%;
+  height: 50px;
+        max-height: 0;
+  overflow: hidden;
+  color: green;
+  transition: max-height 0.8s;
+  z-index: 2;
 }
-.rectangle{
-    width:300px;
-    height: 500px;
-    background:rgb(255, 255, 255);
-    margin: auto;
-    padding: 10px;
-    transition: width 2s;
-}
-.rectangle:hover{
-    width: 3000px;
-    height: 3000px;
-}
+ 
+ .expand {
+     max-height: 150px;
+ } */
+
+ 
+     
