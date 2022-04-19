@@ -1,0 +1,142 @@
+body {
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Sovana';
+    color: black;
+    font-size: 150pt;
+    text-align: left;
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: 'Sovana';
+    color: white;
+    font-size: 150pt;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 1000px;
+}
+
+p {
+    font-size: 100pt;
+    margin-top: 600px;
+    margin-left: 500px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow-x: auto;
+    margin: 20px;
+}
+
+div.container a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+img {
+    /* flex: 0 0 auto;
+    width: auto;
+    height: 400px;
+    max-width: 100%;
+    margin-right: 10px; */
+    width: 200px;
+    height: auto;
+}
+
+ :root {
+    --margin: 10px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    /* margin: var(--margin); */
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    left: 1800px;
+    top: 300px;
+
+}
+.w3-button{
+    left: 1600;
+    top: 300px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#contents {
+    /* background-color: #333; */
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    /* grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-gap: var(--margin); */
+    align-items: flex-end;
+    justify-items: start;
+    padding: 0;
+    /* margin-top: -1200px;
+    margin-left: 500px; */
+  
+}
+.block__image{
+    /* margin-top: 100px;
+    margin-left: 50px; */
+   width: auto;
+   height:400px;
+}
+
+.block {
+    padding: var(--margin);
+    background-color: white;
+    
+}
+
+.square1{
+    height: 50px;
+    width: 50px;
+    color: red;
+}
+
+/* div.rectangle {
+    background-color: lightblue;
+    width: 40px;
+    overflow-x: scroll;
+  } */
+
+
+/* .dropdwn {
+    background: rgb(255, 255, 255);
+  width: 100%;
+  height: 50px;
+        max-height: 0;
+  overflow: hidden;
+  color: green;
+  transition: max-height 0.8s;
+  z-index: 2;
+}
+ 
+ .expand {
+     max-height: 150px;
+ } */

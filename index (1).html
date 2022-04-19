@@ -15,7 +15,7 @@
       body {
         min-height: 100vh;
         width: 100%;
-        background-color: blueviolet;
+        background-color: rgb(37, 126, 128);
         font-family: Helvetica, sans-serif;
       }
 
@@ -32,9 +32,11 @@
       }
       
       #contents {
-        display: grid;
-        grid-template-columns: repeat(5, minmax(0, 1fr));
+        /* display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr)); */
         grid-gap: var(--margin);
+        display: flex;
+        flex-wrap: wrap;
         align-items: start;
         justify-items: start;
         padding: 0;
@@ -47,8 +49,22 @@
 
       .block {
         padding: var(--margin);
-        background-color: white;
+        background-color: var(--color, white);
+        width: var(--width, 25%);
       }
+
+      /* .block:hover{
+        background-color: var(--color, white);
+      } */
+      .block__image__caption {
+        margin: 0;
+        display: none;
+        word-break: break-all;
+      }
+      .block--image:hover .block__image__caption{
+       display: block;
+     }
+
     </style>
   </head>
 
@@ -70,6 +86,7 @@
     <template id="image-block">
       <li class="block block--image">
         <img class="block__image" src="">
+        <p class="bloack__image__caption"></p>
       </li>
     </template>
 
@@ -100,22 +117,35 @@
     };
 
     const renderBlocks = (data) => {
-      // let title = data['title'];
       let blocks = data['contents'];
+      let hue = 0;
       blocks.forEach((block) => {
         let blockClass = block['class'];
         console.log(blockClass);
         if (blockClass == 'Image') {
-          renderImage(block);
+          renderImage(block, hue);
         }
+        hue = hue + 25;
+      
     });
   };
 
-  const renderImage = (block) => {
+  const renderImage = (block, hue) => {
     let imageUrl = block ['image']['display']['url'];
     let imageBlockTemplate = document.getElementById('image-block');
     let clone = imageBlockTemplate.content.cloneNode(true);
+
     clone.querySelector('img').src = imageUrl;
+    clone.querySelector('p').innerText = block['title'];
+    
+    // let randomHue = Math.random()*255;
+    let randomColor = 'hsl(' + hue + ', 100%, 50%)';
+    clone.querySelector('li').style.setProperty('--color', randomColor);
+
+    let randomWidth = Math.random()*50;
+    let randomWidthValue = randomWidth + '%';
+    clone.querySelector('li').style.setProperty('--width', randomWidthValue);
+
     document.getElementById('contents').appendChild(clone);
   };
 

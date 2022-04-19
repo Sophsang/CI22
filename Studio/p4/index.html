@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="myscripts.js" defer></script>
+    <title>Doors to All Doors</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Door <br> to All <br> Doors</h1>
+        <p>&rarr;</p>
+        <h2>Sometimes, doors can be an architectural aspect that <br>
+             tends to be a bit overlooked. This collection is <br>
+             meant to display the allure of different colored <br>
+             doors found across the world. <br>
+            -Kiara Putrilia</h2>
+            <div class="square1"></div>
+            <div class="square2"></div>
+            <div class="square3"></div>
+            <div class="square4"></div>
+            <div class="square5"></div>
+            <div class="square6"></div>
+            <div class="square7"></div>
+            <div class="square8"></div>
+        <div class="wrapper">
+            
+            <!-- <h2>This is the contents of my channel, <span id="channel-title"></span>.</h2> -->
+
+            <ul id="contents">
+
+                <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)" style= "order: 3;">&#10095;</button>
+
+            </ul>
+        </div>
+
+        <template id="text-block">
+        <li class="block block--text">
+          <p class="block__text"></p>
+        </li>
+      </template>
+
+        <template id="image-block">
+        <li class="block block--image mySlides">
+          <img class="block__image" src="">
+        </li>
+      </template>
+
+
+        <template id="link-block">
+        <li class="block block--link">
+          <a class="block__link" href="#"></a>
+        </li>
+      </template>
+    </div>
+    </div>
+    </div>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const channel = 'p3-elastic-collections-doors';
+
+            fetch(`https://api.are.na/v2/channels/${channel}?per=100`, {
+                    cache: 'no-store'
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // console.log(data);
+                    // renderTitle(data);
+                    renderBlocks(data);
+
+                });
+
+        });
+
+        // const renderTitle = (data) => {
+        //     let title = data['title'];
+        //     document.getElementById('channel-title').innerText = title;
+        // };
+
+        const renderBlocks = (data) => {
+            // let title = data['title'];
+            let blocks = data['contents'];
+            blocks.forEach((block) => {
+                let blockClass = block['class'];
+                console.log(blockClass);
+                if (blockClass == 'Image') {
+                    renderImage(block);
+                }
+            });
+        };
+
+        const renderImage = (block) => {
+            let imageUrl = block['image']['display']['url'];
+            let imageBlockTemplate = document.getElementById('image-block');
+            let clone = imageBlockTemplate.content.cloneNode(true);
+            clone.querySelector('img').src = imageUrl;
+            document.getElementById('contents').appendChild(clone);
+        };
+    </script>
+</body>
+
+</html>
