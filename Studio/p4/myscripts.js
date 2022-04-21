@@ -1,7 +1,5 @@
-// $('.dropdwn').slideDown('slow')
-
 var slideIndex = 1;
-showDivs(slideIndex);
+// showDivs(slideIndex);
 
 function plusDivs(n) {
     showDivs(slideIndex += n);
@@ -20,5 +18,11 @@ function showDivs(n) {
     }
 
     x[slideIndex - 1].style.display = "block";
+}
 
+var element = document.querySelector(".door");
+element.addEventListener("click", toggleDoor);
+
+function toggleDoor() {
+  element.classList.toggle("doorOpen");
 }

@@ -8,48 +8,73 @@
     <link rel="stylesheet" href="style.css">
     <script src="myscripts.js" defer></script>
     <title>Doors to All Doors</title>
+    <link rel="shortcut icon" href="Favicon.ico" sizes="196x196" type="image/x-icon">
+    <link rel="icon" href="Favicon.ico" type="image/x-icon">    
 </head>
 
 <body>
+    <div class="topnav">
+        <a class="double" href="#double" onclick="showPictures2('double')">Double</a>
+        <a class="single" href="#single" onclick="showPictures('single')">Single</a> 
+
+        <a class="active" href="#all" onclick="showImages('all')">All</a>
+        <a class="red" href="#red" onclick="showImages('red')"></a>
+        <a class="orange" href="#orange" onclick="showImages('orange')"></a>
+        <a class="yellow" href="#yellow" onclick="showImages('yellow')"></a>
+        <a class="green" href="#green" onclick="showImages('green')"></a>
+        <a class="blue" href="#blue" onclick="showImages('blue')"></a>
+        <a class="purple" href="#purple" onclick="showImages('purple')"></a>
+        <a class="pink" href="#pink" onclick="showImages('pink')"></a>
+        <a class="black" href="#black" onclick="showImages('black')"></a>
+        <a class="brown" href="#brown" onclick="showImages('brown')"></a>
+        <a class="gray" href="#gray" onclick="showImages('gray')"></a>
+        <a class="rainbow" href="#rainbow" onclick="showImages('rainbow')"></a>
+    
+      </div>
+      
+   
     <div class="container">
         <h1>Door <br> to All <br> Doors</h1>
         <p>&rarr;</p>
         <h2>Sometimes, doors can be an architectural aspect that <br>
-             tends to be a bit overlooked. This collection is <br>
-             meant to display the allure of different colored <br>
-             doors found across the world. <br>
-            -Kiara Putrilia</h2>
-            <div class="square1"></div>
-            <div class="square2"></div>
-            <div class="square3"></div>
-            <div class="square4"></div>
-            <div class="square5"></div>
-            <div class="square6"></div>
-            <div class="square7"></div>
-            <div class="square8"></div>
+            tends to be a bit overlooked. This collection is <br>
+            meant to display the allure of different colored <br>
+            doors found across the world. <br>
+            -Kiara Putrilia <br> </h2>
+            <h3>Collection by Kiara Putrilia <br>
+            Designed by Sophie Tsang</h3>
         <div class="wrapper">
             
-            <!-- <h2>This is the contents of my channel, <span id="channel-title"></span>.</h2> -->
-
+            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)" style= "order: 3;">&#10095;</button> 
+       
+            <div class="backDoor">
+                <div class="door">  
+                  
+            
             <ul id="contents">
 
-                <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)" style= "order: 3;">&#10095;</button>
+                
 
             </ul>
         </div>
-
+    </div>  
+</div>
+        
         <template id="text-block">
         <li class="block block--text">
           <p class="block__text"></p>
         </li>
       </template>
 
-        <template id="image-block">
+      
+     
+      <template id="image-block">
         <li class="block block--image mySlides">
           <img class="block__image" src="">
         </li>
       </template>
+    
 
 
         <template id="link-block">
@@ -61,6 +86,8 @@
     </div>
     </div>
     <script>
+        var activeColor = "all";
+        var channeldata = null;
         window.addEventListener('DOMContentLoaded', () => {
             const channel = 'p3-elastic-collections-doors';
 
@@ -69,10 +96,9 @@
                 })
                 .then(response => response.json())
                 .then(data => {
-                    // console.log(data);
-                    // renderTitle(data);
+                    channeldata = data;
                     renderBlocks(data);
-
+                    showDivs(slideIndex);
                 });
 
         });
@@ -83,16 +109,53 @@
         // };
 
         const renderBlocks = (data) => {
+            clearImages();
             // let title = data['title'];
             let blocks = data['contents'];
             blocks.forEach((block) => {
                 let blockClass = block['class'];
-                console.log(blockClass);
-                if (blockClass == 'Image') {
+                let blockTitle = block['title'].trim();
+                let blockDescription = block['description'].trim();
+                if  (blockTitle == activeColor || activeColor == "all"){
+                    if (blockClass == 'Image') {
                     renderImage(block);
+                    }
                 }
-            });
-        };
+                    console.log (block["description"]);
+        });
+    }
+
+        const clearImages = () => {
+            var elements = document.querySelectorAll("#contents li");
+            for(let i = 0; i<elements.length; i++){
+                elements[i].remove();
+            } 
+        }
+        const showImages = (color) =>{
+            console.log (color);
+            activeColor = color;
+            renderBlocks(channeldata);
+            slideIndex = 1;
+            showDivs(slideIndex); 
+        }
+
+        const showPictures = (description) =>{
+            console.log (description);
+            activeDescription = description;
+            renderBlocks(channeldata);
+            slideIndex = 8;
+            showDivs(slideIndex); 
+            
+        }
+        const showPictures2 = (description) =>{
+            console.log (description);
+            activeDescription = description;
+            renderBlocks(channeldata);
+            slideIndex = 6;
+            showDivs(slideIndex); 
+            
+        }
+
 
         const renderImage = (block) => {
             let imageUrl = block['image']['display']['url'];
@@ -101,7 +164,8 @@
             clone.querySelector('img').src = imageUrl;
             document.getElementById('contents').appendChild(clone);
         };
-    </script>
-</body>
+        
 
+    </script>
+</body> 
 </html>
