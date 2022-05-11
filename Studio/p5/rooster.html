@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the farm!</title>
+    <link rel="stylesheet" href="rooster.css">
+    <script src="script2.js"></script>
+
+</head>
+<body>
+    <div>
+    <img id="wait" src="WAIT.png" alt="" width="600px">
+    <div><img class=rooster src="rooster.png" alt="" width="180px">
+    </div>
+</div>
+<div class="button">    
+<audio id="cowAudio" src="sounds/rooster.mp3" preload="auto"></audio>
+<a onClick="togglePlay()" id=myButton ></a>
+
+<a type="button"
+    onclick="hide()" id="wrongAnswer"><div id= goatButton>Pig</div> <br>
+</a>
+
+<a type="button"
+    onclick="show()" id="btnID"><div id= cowButton>Rooster</div> <br>
+</a>
+
+<a type="button"
+    onclick="hide()" id="wrongAnswer"><div id= roosterButton>Cow</div> <br>
+</a>
+
+<a type="button"
+    onclick="hide()" id="wrongAnswer"><div id= pigButton>Horse</div> <br>
+</a>
+</div>
+
+<div>
+
+    <!-- Add id to image -->
+    <img id="image" src="GREAT_JOB.png"
+        alt=""width="600px" />
+</div>
+<div>
+    <img id="tryAgain" src="TRY_AGAIN.png"
+        alt=""width="600px" />
+</div>
+<div>
+    <a href="endPage.html">
+    <img id=arrow src="arrow.png" alt="">
+</a>
+</div>
+<div>
+    <a href="goat.html">
+    <img id=backarrow src="arrow.png" alt="">
+</a>
+</div>
+
+
+
+<script>
+        function hide() {
+        document.getElementById('tryAgain')
+                .style.display = "block";
+
+        document.getElementById("wait")
+                .style.visibility="hidden";
+
+        
+
+    }
+    function show() {
+
+        /* Access image by id and change
+        the display property to block*/
+        document.getElementById('image')
+                .style.display = "block";
+                
+        document.getElementById('arrow')
+                .style.display = "hidden";
+
+        document.getElementById("wait")
+                .style.visibility="hidden";
+
+        document.getElementById('tryAgain')
+                .style.visibility="hidden";
+
+    }
+
+</script>
+</body>
+</html>

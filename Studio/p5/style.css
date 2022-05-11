@@ -1,0 +1,101 @@
+body{
+    background-color: rgba(242, 218, 190, 0.63);
+}
+h1{
+    position: absolute;
+    font-size: 100pt;
+    font-family: 'Tomarik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #E8750B;
+    margin-left: 100px;
+}
+h3{
+    position: absolute;
+    font-family: 'Tomarik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #069AC9;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.img{
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+    width: 100px;
+    height: auto;
+}
+
+
+
+.cow{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    margin-top: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.horse{
+    width: 180px;
+    height: auto;
+    padding: 20px;
+    margin-top: 300px;
+}
+.dog{
+    width: 100px;
+    height: auto;
+    padding: 20px;
+    margin-top: 300px;
+}
+.goat{
+    width: 110px;
+    height: auto;
+    padding: 20px;
+    margin-top: 300px;
+}
+.pig{
+    width: 130px;
+    height: auto;
+    padding: 20px;
+    margin-top: 300px;
+}
+.cat{
+    width: 90px;
+    height: auto;
+    padding: 20px;
+    margin-top: 300px;
+}
+.duck{
+    width: 80px;
+    height: auto;
+    padding: 20px;
+    margin-top: 300px;
+}
+.rooster{
+    width: 100px;
+    height: auto;
+    padding: 20px;
+    margin-top: 300px;
+}
+
+.animalContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .animalContainer-div{
+    margin-top: 300px;
+  }
+  
