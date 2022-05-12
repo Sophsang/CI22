@@ -83,6 +83,36 @@ body{
             height:auto;
         }
 
+        @media only screen and (max-width: 1000px) {
+            img {
+                position: fixed;
+                bottom: 40%;
+                width: 500px;
+                height: auto;
+                }
+            #arrow{
+                width: 60px;
+                height:auto;
+                position: fixed;
+                bottom: 100px;
+                right: 100px;
+            }
+            #arrow:hover{
+                width: 80px;
+                height:auto;
+            }
+            .goat{
+                padding: 20px;
+                top: 570px;
+                display: block;
+                margin-left: -280px;
+                width: 250px;
+            }
+            .button{
+                margin-top: 400px;
+            }
+        }
+
 
 
 
